@@ -23,7 +23,7 @@ y_fft = scipy.fftpack.fft(wave)
 # plot fft results in frequency dimension
 N=100
 # get x_fft of 100 numbers from 0 to 20
-x_fft = np.linspace(0.0, N/tup, 100)
+x_fft = np.linspace(0.0, N/xup, 100)
 
 fig, ax = plt.subplots()
 ax.plot(x_fft, 1./N * np.abs(y_fft[:N]))
