@@ -1,15 +1,15 @@
 # cal_fast_fourier_transform
-Calculate fast fourier transform given an input wave by using scipy Fast Fourier Transform function fft
+Calculate fast fourier transform given an input wave by using scipy Fast Fourier Transform function fft.
 
 # Contents
 
-Generate an input wave
+Generate an input wave.
 
-Plot the wave
+Plot the wave in the space dimension.
 
-Use fast fourier transform function fft to calculate results
+Use fast fourier transform function fft to calculate results.
 
-Plot the results in the frequency dimension
+Plot the results in the frequency dimension.
 
 # Installation
 
@@ -17,4 +17,4 @@ It needs to have scipy.fftpack library, go to the link https://docs.scipy.org/do
 
 # License
 
-It doesn't need a license to use this program
+It doesn't need a license to use this program.
