@@ -1,5 +1,5 @@
 # cal_fast_fourier_transform
-Calculate fast fourier transform given an input wave by using scipy Fast Fourier Transform function fft.
+Calculate fast fourier transform given an input wave by using scipy Fast Fourier Transform function fft. This is written in Python 3.
 
 # Contents
 
