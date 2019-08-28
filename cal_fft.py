@@ -10,6 +10,7 @@ tup=5
 t = np.linspace(0.0, tup, 200)
 wave=A * np.cos(2 * np.pi * t*freq)
 #wave=A * np.cos(2 * np.pi *t*t)
+# the following wave is an example in https://en.wikipedia.org/wiki/Fourier_transform
 waves=A * np.cos(6 * np.pi * t)*np.exp(- np.pi*t*t)
 #plot wave
 fig, ax = plt.subplots()
