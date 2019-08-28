@@ -5,10 +5,16 @@ Calculate fast fourier transform given an input wave by using scipy Fast Fourier
 
 Generate an input wave
 
+Plot the wave
+
 Use fast fourier transform function fft to calculate results
+
+Plot the results in the frequency dimension
 
 # Installation
 
-It needs to have scipy fft library
+It needs to have scipy.fftpack library, go to the link https://docs.scipy.org/doc/scipy/reference/generated/scipy.fftpack.fft.html#scipy.fftpack.fft
 
 # License
+
+It doesn't need a license to use this program
