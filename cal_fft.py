@@ -5,16 +5,17 @@ import matplotlib.pyplot as plt
 
 A=50
 freq=10
-tup=5
-# get t of 200 numbers from 0 to 5
-t = np.linspace(0.0, tup, 200)
-wave=A * np.cos(2 * np.pi * t*freq)
-#wave=A * np.cos(2 * np.pi *t*t)
+
+# get x of 200 numbers from 0 to upper bound xup=5
+xup=5
+x = np.linspace(0.0, xup, 200)
+wave=A * np.cos(2 * np.pi * x *freq)
+#wave=A * np.cos(2 * np.pi * x * x)
 # the following wave is an example in https://en.wikipedia.org/wiki/Fourier_transform
-waves=A * np.cos(6 * np.pi * t)*np.exp(- np.pi*t*t)
+waves=A * np.cos(6 * np.pi * x)*np.exp(- np.pi*x*x)
 #plot wave
 fig, ax = plt.subplots()
-ax.plot(t, wave)
+ax.plot(x, wave)
 
 # Fast Fourier Transform
 y_fft = scipy.fftpack.fft(wave)
